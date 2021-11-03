@@ -54,7 +54,7 @@ int _tmain(int argc, _TCHAR *argv[])
     int i;
     uint8 data[16];
 
-        setlocale( LC_ALL, "Japanese");
+    setlocale( LC_ALL, "Japanese");
 
     p = pasori_open(NULL);
     if (!p) {
